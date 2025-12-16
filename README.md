@@ -1,6 +1,6 @@
 Welcome to your new TanStack app! 
 
-# Befor Running run the below command 
+# Befor Running the server run the below command 
 npx json-server src/Mockdata.json --port 5001
 
 # Getting Started
