@@ -9,26 +9,19 @@ function HomePage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-white px-6 border-black/20">
       <div className="relative w-full max-w-xl">
-        {/* Outline glow */}
         <div className="pointer-events-none absolute -inset-[1px] rounded-3xl border border-white/40 blur-[2px]" />
 
-        {/* Card */}
         <div className="relative rounded-3xl border border-white/15 bg-white p-10 text-center shadow-xl transition-transform duration-300 hover:scale-[1.01]">
-          {/* Title */}
           <h1 className="text-4xl font-semibold tracking-tight text-black">
             User Directory
           </h1>
-
-          {/* Description */}
           <p className="mt-4 text-black leading-relaxed">
             A modern directory to browse, search, and filter users with speed and
             clarity.
           </p>
 
-          {/* Divider */}
           <div className="my-8 h-px w-full bg-white/10" />
 
-          {/* Features */}
           <div className="flex flex-wrap justify-center gap-3">
             {["Infinite Scroll", "Search", "Filters", "Virtualized"].map(
               (item) => (
@@ -41,8 +34,6 @@ function HomePage() {
               )
             )}
           </div>
-
-          {/* CTA */}
           <div className="mt-10">
             <Link to="/users">
               <Button
